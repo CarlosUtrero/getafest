@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #202936;
+    color: white;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 35px 20px 20px;
+}
+
+header h1 {
+    color: #00e5ff;
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: white;
+    font-size: 15px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 650px;
+    margin: 20px auto 40px;
+}
+
+.formulario {
+    background-color: #6674b8;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.formulario h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group > label:first-child {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form-group label:not(:first-child) {
+    display: inline;
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #b8c2ed;
+    border-radius: 5px;
+    background-color: #7180c3;
+    color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #dddddd;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #00e5ff;
+}
+
+input[type="file"] {
+    width: 100%;
+    color: white;
+}
+
+textarea {
+    height: 90px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8b5cf6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #7544df;
+}
+
+.acreditacion {
+    background-color: #6674b8;
+    padding: 40px;
+    border-radius: 12px;
+    border: 2px dashed #a8ffff;
+    text-align: center;
+}
+
+.foto-acreditacion {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #00e5ff;
+    margin-bottom: 15px;
+}
+
+.acreditacion h2 {
+    margin-top: 10px;
+}
+
+.acreditacion p {
+    margin: 18px 0;
+}
+
+.total {
+    color: #00ff88;
+}
+
+.otra-reserva {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.otra-reserva a {
+    color: #00e5ff;
+    text-decoration: none;
+}
